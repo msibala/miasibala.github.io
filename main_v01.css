@@ -1,0 +1,68 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 2em;
+}
+
+img {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+    border-radius: 2%;
+}
+
+.titlebar {
+    display: flex;
+    justify-content: space-between;
+    height: 3em;
+}
+
+.name {
+    font-size: 1.75em;    
+}
+
+.links {
+    font-size: 1.5em;
+    color:#d4cece;
+    display: inline-block;
+    padding: 0px 15px;
+    word-wrap: inherit;
+}
+
+a {
+    color:grey;
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.bio {
+    width:45%;
+    margin-top: 5%;
+    font-size: 1.75em;
+}
+
+.coverphoto {
+    width:45%;
+}
+
+.experience {
+    display: flex;
+    justify-content: left;
+    margin-top: 2em;
+}
+
+.work { 
+    width:45%;
+}
+
+.projects {
+    width:40%;
+}
