@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
@@ -27,9 +29,12 @@ img {
 .links {
     font-size: 1.5em;
     color:#d4cece;
-    display: inline-block;
+    display: flex;
     padding: 0px 15px;
-    word-wrap: inherit;
+    width: 26%;
+    justify-content: space-between;
+    
+    
 }
 
 a {
@@ -55,14 +60,33 @@ a {
 
 .experience {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     margin-top: 2em;
 }
 
 .work { 
-    width:45%;
+    margin-top: 4%;
+    width:30%;
+}
+@media screen and (orientation:portrait) {
+    body{
+        font-size: 24px;
+    }
+
+    .intro{
+        flex-direction: column;
+    }
+    .experience{
+        flex-direction: column;
+    }
+    .bio {
+        width:90%;
+    }   
+    .coverphoto {
+        width:90%;
+    }
+    .work {
+        width:90%;
+    }
 }
 
-.projects {
-    width:40%;
-}
